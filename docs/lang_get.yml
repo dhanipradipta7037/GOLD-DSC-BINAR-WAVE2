@@ -1,0 +1,16 @@
+tags:
+  - name: Project Gold Binar
+get:
+  description: Project Gold Binar
+parameters:
+  - name: id
+    in: path
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
